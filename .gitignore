@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+/builder
+
+# Local .DS_Store / system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs & editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Node (if dashboard or frontend)
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+*.tsbuildinfo
+
+# Optional: if using Go modules
+bin/
+*.exe
+*.out
+*.test
+
+# Mac/Linux file system noise
+*.swp
+*~
+.swp
+
+# Terraform or infra secrets (if used)
+*.tfstate
+*.tfstate.*
+.terraform/

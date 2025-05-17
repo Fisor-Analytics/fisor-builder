@@ -1,0 +1,210 @@
+{
+  "50fde7d31d6bb76476f9e5b33de0f2e2": {
+    "query": "Average house price in Toronto Jan-Dec 2022",
+    "snippet": "Here is a breakdown of the average house prices in Toronto for each month of 2022:\n\n| Month | Average House Price |\n|-------|---------------------|\n| January | $1,257,500 |\n| February | $1,326,100 |\n| March | $1,335,000 |\n| April | $1,303,900 |\n| May | $1,250,000 |\n| June | $1,193,500 |\n| July | $1,146,500 |\n| August | $1,113,900 |\n| September | $1,100,500 |\n| October | $1,088,300 |\n| November | $1,080,000 |\n| December | $1,071,400 |\n\nThese figures show a peak in February and a decline throughout the year, largely due to rising interest rates and affordability issues[1][5][7].\n\nFor the entire year, the average selling price was $1,189,850, which represents an 8.6% increase from 2021[3][8]. However, this growth was primarily driven by strong sales early in the year, with prices moderating later on[7][8].",
+    "structured_data": [
+      {
+        "average_house_price": 1326100,
+        "month": "February"
+      },
+      {
+        "average_house_price": 1080000,
+        "month": "November"
+      },
+      {
+        "average_house_price": 1257500,
+        "month": "January"
+      },
+      {
+        "average_house_price": 1100500,
+        "month": "September"
+      },
+      {
+        "average_house_price": 1250000,
+        "month": "May"
+      },
+      {
+        "average_house_price": 1113900,
+        "month": "August"
+      },
+      {
+        "average_house_price": 1335000,
+        "month": "March"
+      },
+      {
+        "average_house_price": 1071400,
+        "month": "December"
+      },
+      {
+        "average_house_price": 1088300,
+        "month": "October"
+      },
+      {
+        "average_house_price": 1146500,
+        "month": "July"
+      },
+      {
+        "average_house_price": 1193500,
+        "month": "June"
+      },
+      {
+        "average_house_price": 1303900,
+        "month": "April"
+      }
+    ],
+    "confidence_score": 0.9,
+    "timestamp": "2025-05-17T20:22:04.095933Z"
+  },
+  "8a8c56ee246ef6c161cedbbbde657656": {
+    "query": "What were the housing affordability metrics in Toronto for 2022?",
+    "snippet": "In 2022, housing affordability in Toronto was notably strained, marked by record-high ownership costs and significant price increases that made purchasing homes increasingly difficult for many households.\n\n## Key Housing Affordability Metrics for Toronto in 2022\n\n- **Mortgage Payment as a Percentage of Income (MPPI):**  \n  In the second quarter of 2022, the MPPI in the Greater Toronto Area (GTA) reached a record high of 91.0%, meaning the median household would need to spend 91% of their income on mortgage payments to afford a typical home. This was a 15.4 percentage point increase from the previous quarter and well above the 20-year average of 50.0% for Toronto[5]. By the third quarter of 2022, the MPPI remained extremely high at 85.2%, still among the worst affordability levels recorded[9].\n\n- **Home Prices:**  \n  The median home price in Toronto rose significantly, from approximately $1,075,636 in 2021 to about $1,257,257 in 2022, representing a year-over-year increase of 16.88%[6][8]. This price escalation contributed heavily to worsening affordability.\n\n- **Income and Downpayment:**  \n  The qualifying annual income needed to afford a home in Toronto was around $186,588, with a median household income of approximately $94,316, highlighting a substantial gap between income and housing costs[2]. The downpayment required was very high, with estimates around $236,114, equating to over 282 months of saving based on average incomes[2].\n\n- **Rental Market Context:**  \n  Average market rents also increased, putting additional pressure on affordability. For example, average rents for one-bedroom apartments in Toronto increased by 46% between 2013 and 2022, further exacerbating housing cost burdens for renters[7].\n\n- **Affordability Trends and Outlook:**  \n  RBC's housing affordability measures indicated that Toronto, along with Vancouver and Victoria, experienced some of the most severe affordability challenges in Canada in 2022, with ownership costs reaching near-impossible levels for many buyers. The rapid price escalation combined with rising interest rates (Bank of Canada rate hikes) pushed ownership costs to historic highs[1][9]. The outlook at the time suggested that affordability would worsen before any relief could come from expected price corrections and stabilization of interest rates[1][9].\n\n- **Housing Cost Burden:**  \n  Nearly one-third of Toronto households were spending over 30% of their income on housing costs, with renters more likely to face affordability challenges than owners. Severe unaffordability was particularly pronounced among low- and moderate-income households and racialized populations[7].\n\n## Summary\n\nIn 2022, Toronto's housing affordability was at a critical low point:\n\n- MPPI peaked at record levels around 85-91%, far exceeding historical averages.\n- Median home prices surged by nearly 17% year-over-year, surpassing $1.25 million.\n- Required incomes and downpayments were significantly higher than median household incomes.\n- Rising rents compounded affordability issues for many residents.\n- The combination of soaring prices and rising interest rates created the worst affordability conditions in decades, with many households spending a disproportionate share of income on housing.\n\nThese metrics illustrate the severe housing affordability crisis Toronto faced in 2022, impacting both potential homebuyers and renters alike[1][2][5][6][7][9].",
+    "structured_data": [
+      {
+        "category": "General Affordability Trends",
+        "data": {
+          "ranking_in_home_buying_expense": 1,
+          "ranking_in_rent_expense": 2,
+          "resident_satisfaction": "Declining due to rising costs and stagnant incomes"
+        }
+      },
+      {
+        "category": "Housing Costs and Affordability",
+        "data": {
+          "average_home_price": 1140000,
+          "mortgage_payment_as_income_percentage": "Highest on record",
+          "price_increase_percentage": 29,
+          "rent_increase_percentage": 46
+        }
+      },
+      {
+        "implication": "Severe unaffordability among low- and moderate-income households and racialized populations.",
+        "metric": "Housing Cost Burden",
+        "value": "Nearly 1/3 of households spent over 30% of income on housing, with renters facing higher affordability challenges than owners."
+      },
+      {
+        "implication": "Significant gap between income and housing costs, with downpayment requiring extended saving period.",
+        "metric": "Income and Downpayment",
+        "value": "Qualifying income: $186,588; Median household income: $94,316; Downpayment: $236,114 (over 282 months of saving based on average income)"
+      },
+      {
+        "implication": "Price escalation contributed to worsening affordability.",
+        "metric": "Home Prices",
+        "value": "Median price increased by 16.88% from 2021 to 2022, reaching $1,257,257."
+      },
+      {
+        "implication": "Housing affordability strained, with median household spending a large share of income on mortgage.",
+        "metric": "Mortgage Payment as a Percentage of Income (MPPI)",
+        "value": "91.0% in Q2 2022 (record high), 85.2% in Q3 2022"
+      },
+      {
+        "category": "Housing Supply and Development",
+        "data": {
+          "homes_under_construction_in_2022": 56384,
+          "rent_controlled_homes_to_be_approved": 65000
+        }
+      },
+      {
+        "implication": "Affordability expected to worsen before any relief from price corrections and interest rate stabilization.",
+        "metric": "Affordability Trends and Outlook",
+        "value": "Ownership costs reached near-impossible levels due to price escalation and rising interest rates."
+      },
+      {
+        "category": "Core Housing Need and Affordability Challenges",
+        "data": {
+          "households_in_core_housing_need": 20,
+          "households_spending_over_30_percent_on_housing": 33,
+          "private_renter_households_spending_over_50_percent_on_housing": 25
+        }
+      },
+      {
+        "implication": "Rising rents added pressure to affordability, impacting renters significantly.",
+        "metric": "Rental Market Context",
+        "value": "Average rents for one-bedroom apartments increased by 46% between 2013 and 2022"
+      },
+      {
+        "category": "Racial and Socioeconomic Disparities",
+        "data": {
+          "black_and_indigenous_homelessness_rate": "Disproportionately represented",
+          "racialized_groups_severe_unaffordability_rate": "Higher than non-racialized households"
+        }
+      }
+    ],
+    "confidence_score": 0.95,
+    "timestamp": "2025-05-17T20:23:14.841196Z"
+  },
+  "9737fad5436c547d075479d5df7f6a7a": {
+    "query": "Mortgage rates in Toronto during 2022",
+    "snippet": "In 2022, mortgage rates in Toronto experienced significant changes, primarily due to the Bank of Canada's interest rate adjustments. Here's an overview of the key developments:\n\n1. **Interest Rate Increases**: The Bank of Canada began raising interest rates in March 2022 to combat inflation. This led to higher mortgage rates throughout the year. By the end of 2022, the 5-year conventional mortgage lending rate had reached 5.75% in October[4].\n\n2. **Impact on Housing Market**: The increase in interest rates affected the housing market by reducing demand and causing home prices to stabilize or decrease slightly. However, Toronto's housing market remained strong, with average new mortgage loan values peaking at $567,448 in Q3 2022[1].\n\n3. **Mortgage Payments**: As rates rose, so did monthly mortgage payments. The average monthly mortgage payment in Toronto increased throughout 2022, reflecting the higher interest rates and larger loan amounts[1].\n\n4. **Variable vs. Fixed Rates**: Variable mortgage rates were directly influenced by the Bank of Canada's prime rate changes, while fixed rates were more closely tied to bond yields. Both types of rates increased in 2022 due to economic conditions[7].\n\nOverall, 2022 was marked by rising mortgage rates and their impact on Toronto's housing market, with both fixed and variable rates increasing significantly over the year.",
+    "structured_data": [
+      {
+        "details": "Variable rates were influenced by the Bank of Canada's prime rate changes, while fixed rates were tied to bond yields. Both types of rates increased due to economic conditions.",
+        "effect": "More expensive borrowing for homeowners and homebuyers",
+        "event": "Variable and Fixed Rate Increases",
+        "year": "2022"
+      },
+      {
+        "details": "Interest rate increases reduced demand and caused home prices to stabilize or slightly decrease. Toronto's market remained strong, with average new mortgage loan values peaking at $567,448 in Q3.",
+        "effect": "Strong housing market despite interest rate rises",
+        "event": "Housing Market Impact",
+        "year": "2022"
+      },
+      {
+        "details": "Fixed rates started higher than variable rates but both increased, with the average 5-year fixed rate reaching 6.04% by the end of the year while variable rates were influenced by a rising prime rate.",
+        "event": "Fixed and Variable Rate Comparison",
+        "reference": "8",
+        "year": "2022"
+      },
+      {
+        "details": "The average new mortgage loan value in Toronto peaked in Q3 at $567,448 due to low rates during the pandemic and subsequent rate hikes.",
+        "event": "Average Mortgage Loan Values",
+        "reference": "1",
+        "year": "2022"
+      },
+      {
+        "details": "Fixed rates rose due to higher bond yields, and variable rates increased as the Bank of Canada raised its benchmark rate.",
+        "event": "Mortgage Rate Trends",
+        "reference": "6",
+        "year": "2022"
+      },
+      {
+        "details": "Monthly mortgage payments in Toronto increased as rates rose, ending the year at higher levels compared to previous years.",
+        "event": "Monthly Payments",
+        "reference": "1",
+        "year": "2022"
+      },
+      {
+        "details": "Monthly mortgage payments in Toronto increased throughout the year due to higher interest rates and larger loan amounts.",
+        "effect": "Increased financial burden for homeowners",
+        "event": "Mortgage Payments Increase",
+        "year": "2022"
+      },
+      {
+        "average_rate": "6.04%",
+        "type": "5-Year Fixed Mortgage Rates",
+        "year": 2022
+      },
+      {
+        "details": "The Bank of Canada raised interest rates to combat inflation, increasing mortgage rates.",
+        "event": "Interest Rate Increases",
+        "reference": "1",
+        "year": "2022"
+      },
+      {
+        "details": "The Bank of Canada raised interest rates to combat inflation, leading to higher mortgage rates. The 5-year conventional mortgage lending rate reached 5.75% in October.",
+        "effect": "Higher monthly mortgage payments",
+        "event": "Interest Rate Increases",
+        "year": "2022"
+      },
+      {
+        "economic_context": "Bank of Canada raised interest rates to combat inflation, affecting both fixed and variable rates and impacting housing affordability in Toronto."
+      },
+      {
+        "average_rate": "3.40%",
+        "type": "Variable Mortgage Rates",
+        "year": 2022
+      }
+    ],
+    "confidence_score": 0.9,
+    "timestamp": "2025-05-17T20:24:35.829906Z"
+  }
+}
