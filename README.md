@@ -49,6 +49,44 @@ The repo includes `fisor_cache.example.json` as a sample of what the cache outpu
 The real `fisor_cache.json` is generated at runtime and should not be committed.
 
 
+## Defaults
+
+Fisor Builder assumes a default location when none is provided:
+
+```python
+# app/config.py
+DEFAULT_LOCATION = {
+  "city": "Toronto",
+  "country": "CA"
+}
+```
+You can override this default by passing a different location in your query, or by modifying the configuration in config.py
+
+### How to Override
+
+You can change this default location in several ways:
+
+**1. Environment variables**  
+Set before running:
+
+```bash
+export FISOR_DEFAULT_CITY="Ottawa"
+export FISOR_DEFAULT_COUNTRY="CA"
+python main.py
+```
+**2. CLI flags** (if using the Typer CLI)
+
+```bash
+fisor-builder run "Analyze housing affordability" --city "Ottawa" --country "CA"
+```
+**3. Code**  
+Edit `app/config.py` or pass a custom `location` dictionary directly:
+
+```python
+custom_location = {"city": "Vancouver", "country": "CA"}
+plan = build_search_plan("Housing affordability trends", location=custom_location)
+```
+
 ## License
 
 MIT – see [LICENSE](LICENSE)

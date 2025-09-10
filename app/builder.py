@@ -24,11 +24,11 @@ def extract_query_only(text: str) -> str:
     return match.group(1).strip() if match else text.strip()
 
 def build_search_plan(prompt: str, location: dict = None) -> BuilderSearchPlan:
-    logger.info(f"📥 Received prompt: {prompt}")
+    logger.info(f" Received prompt: {prompt}")
 
     # Step 1: Generate subqueries
     queries = generate_subqueries(prompt, count=5)
-    logger.info(f"🔍 Generated queries: {queries}")
+    logger.info(f" Generated queries: {queries}")
 
     client = PerplexityClient()
     raw_results = []
@@ -41,7 +41,7 @@ def build_search_plan(prompt: str, location: dict = None) -> BuilderSearchPlan:
 
     for original_query in queries:
         query = original_query
-        logger.info(f"🌐 Processing query: {query}")
+        logger.info(f" Processing query: {query}")
         cached = get_cached_result(query, cache)
         cached_rows = cached.get("structured_data", []) if cached else []
         cached_conf = cached.get("confidence_score", 1.0)
@@ -52,7 +52,7 @@ def build_search_plan(prompt: str, location: dict = None) -> BuilderSearchPlan:
         seen_queries = set()
 
         while attempts < MAX_ATTEMPTS:
-            logger.info(f"🔁 Attempt {attempts + 1} for: {query}")
+            logger.info(f" Attempt {attempts + 1} for: {query}")
             response = client.search(query, location=location)
 
             if "answer" not in response or not response["answer"].strip():
@@ -70,7 +70,7 @@ def build_search_plan(prompt: str, location: dict = None) -> BuilderSearchPlan:
             validation = validate_dataset(deduped_rows, confidence_score, min_rows=MIN_ROWS)
 
             if validation["valid"]:
-                logger.info(f"✅ Query passed validation on attempt {attempts + 1}")
+                logger.info(f" Query passed validation on attempt {attempts + 1}")
                 break
 
             # Reformulate query

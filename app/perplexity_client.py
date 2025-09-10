@@ -14,7 +14,7 @@ class PerplexityClient:
         Uses Perplexity Sonar chat model with built-in web search.
         Optionally refines with location (e.g., {city: 'Toronto', country: 'CA'}).
         """
-        logger.info(f"💬 Sonar LLM → Asking: '{query}'")
+        logger.info(f" Sonar LLM → Asking: '{query}'")
 
         web_search_options = {
             "search_context_size": "high"
@@ -22,7 +22,7 @@ class PerplexityClient:
 
         if location:
             web_search_options["user_location"] = location
-            logger.info(f"🌎 Search location context: {location}")
+            logger.info(f" Search location context: {location}")
 
         try:
             response = client.chat.completions.create(

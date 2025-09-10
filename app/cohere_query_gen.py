@@ -11,7 +11,7 @@ def generate_subqueries(prompt: str, count: int = 4) -> list[str]:
     Use Cohere Command R+ to generate subqueries from a user prompt.
     Returns a list of subqueries (str).
     """
-    logger.info("🧠 Generating subqueries via Cohere Command R+")
+    logger.info(" Generating subqueries via Cohere Command R+")
 
     system_msg = (
         "You're a research planner. Break the user's prompt into multiple specific web search queries "
@@ -31,7 +31,7 @@ def generate_subqueries(prompt: str, count: int = 4) -> list[str]:
         subqueries = [line.lstrip("-•1234567890. ").strip() for line in raw_output.split("\n") if line.strip()]
         
         builder_subqueries_total.inc(len(subqueries))
-        logger.info(f"📌 Subqueries generated: {subqueries[:count]}")
+        logger.info(f" Subqueries generated: {subqueries[:count]}")
         return subqueries[:count]
 
     except Exception as e:
@@ -54,7 +54,7 @@ def regenerate_subquery(query: str) -> str:
             message=prompt
         )
         reformulated = chat.text.strip().strip('"')
-        logger.info(f"🔁 Reformulated query: {reformulated}")
+        logger.info(f" Reformulated query: {reformulated}")
         return reformulated
     except Exception as e:
         logger.error(f"❌ Cohere query regeneration failed: {e}")

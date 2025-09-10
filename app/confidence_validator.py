@@ -14,7 +14,7 @@ def evaluate_confidence(insight_text: str) -> dict:
     - sources_mentioned: int (if inferred)
     - flagged: bool (true if low quality / hallucinated)
     """
-    logger.info("🔍 Running confidence evaluation via Command R+")
+    logger.info(" Running confidence evaluation via Command R+")
 
     prompt = (
         "You are an insight validation agent.\n"

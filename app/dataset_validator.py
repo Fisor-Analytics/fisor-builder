@@ -46,6 +46,6 @@ def _update_metrics(valid: bool, confidence: float, non_null_ratio: float, row_c
     dataset_validation_gauge.labels(metric="row_count").set(row_count)
 
 def print_metrics(metrics: dict):
-    print("\n📊 Dataset Metrics:")
+    print("\n Dataset Metrics:")
     for key, value in metrics.items():
         print(f" - {key.replace('_', ' ').capitalize()}: {value}")

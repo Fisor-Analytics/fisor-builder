@@ -9,7 +9,7 @@ def extract_dataset_from_text(text: str, columns: list[str] = None) -> list[dict
     Uses Cohere Command R+ to convert a free-form LLM snippet into structured JSON (table-like) data.
     Returns a list of dictionaries (rows).
     """
-    logger.info("📊 Extracting structured data using Cohere Command R+")
+    logger.info(" Extracting structured data using Cohere Command R+")
 
     prompt = (
         "You're a data extraction agent.\n"
@@ -35,9 +35,9 @@ def extract_dataset_from_text(text: str, columns: list[str] = None) -> list[dict
         if extracted.startswith("```json"):
             extracted = extracted.split("```json")[-1].strip().rstrip("```").strip()
 
-        logger.info("✅ Extraction successful")
+        logger.info(" Extraction successful")
         return eval(extracted) if extracted.startswith("[") else []
 
     except Exception as e:
-        logger.error(f"❌ Dataset extraction failed: {e}")
+        logger.error(f" Dataset extraction failed: {e}")
         return []
