@@ -43,6 +43,12 @@ fisor-builder-main/
 │   ├── metrics.py             # Metrics helpers
 │   └── metrics_server.py      # Prometheus endpoint
 ```
+
+## Example Cache
+The repo includes `fisor_cache.example.json` as a sample of what the cache output looks like.
+The real `fisor_cache.json` is generated at runtime and should not be committed.
+
+
 ## License
 
 MIT – see [LICENSE](LICENSE)

@@ -2,7 +2,7 @@
 requests
 cohere
 prometheus_client
-openai
 python-dotenv
+typer
 
 

@@ -9,6 +9,10 @@ venv/
 .env.*
 /builder
 
+# Cache files
+fisor_cache.json
+cache/
+
 # Local .DS_Store / system files
 .DS_Store
 Thumbs.db
